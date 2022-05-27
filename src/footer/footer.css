@@ -1,0 +1,43 @@
+
+footer{
+  padding: 3rem 0;
+  background-color: coral;
+}
+
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+   
+    margin-bottom: 4rem;
+    
+    list-style-type: none;
+    
+}
+
+a{
+  text-decoration: none;
+}
+
+.footer_copyright{
+  margin-bottom: 0.2rem;
+}
+
+
+/* ===================MEDIA QUERIES (MEDIUM DEVICES) ==========*/
+@media screen and (max-width: 1024px) {
+    .footer-links {
+      display: flex;
+      flex-direction: column;
+
+    }
+  }
+  /* ===================MEDIA QUERIES (SMALL DEVICES) ==========*/
+  @media screen and (max-width: 600px) {
+   .footer-links{
+       display: flex;
+       flex-direction: column;
+    
+   }
+  }

@@ -1,0 +1,41 @@
+.contact_container{
+    background-color: hotpink;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1%;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+}
+
+
+
+/* ===================MEDIA QUERIES (MEDIUM DEVICES) ==========*/
+@media screen and (max-width: 1024px) {
+    .contact_container{
+        grid-template-columns: 1fr;
+        width: 100%;
+        margin: 0 auto
+    
+    }
+ 
+ 
+
+   }
+   /* ===================MEDIA QUERIES (SMALL DEVICES) ==========*/
+   @media screen and (max-width: 600px) {
+    .contact_container{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+      
+        
+       
+    }
+
+   }
+   
