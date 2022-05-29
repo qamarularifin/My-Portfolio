@@ -10,7 +10,7 @@ function App() {
   const [activeState, setActiveState] = useState("#");
   return (
     <>
-      <Header />
+      <Header activeState={activeState} setActiveState={setActiveState} />
       <NavBar activeState={activeState} setActiveState={setActiveState} />
       <Technologies />
       <Projects />
