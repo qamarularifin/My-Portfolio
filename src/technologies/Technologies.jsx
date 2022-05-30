@@ -6,7 +6,7 @@ const Technologies = () => {
   return (
     <section id="technologies">
       <div>
-        <h1>Technologies Used</h1>
+        <h1>Technologies</h1>
       </div>
       <div className="technologies_container">
         <div className="frontend_container">

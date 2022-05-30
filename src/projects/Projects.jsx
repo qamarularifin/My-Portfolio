@@ -47,7 +47,7 @@ const Projects = () => {
   return (
     <section id="projects">
       <div>
-        <h1>My Projects</h1>
+        <h1>Projects</h1>
       </div>
       <div className="projects_container">
         {data.map((ele, i) => {

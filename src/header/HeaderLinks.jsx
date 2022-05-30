@@ -2,6 +2,7 @@ import React from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { BiFile } from "react-icons/bi";
+import { BsPaperclip } from "react-icons/bs";
 import CV from "../assets/QAMARUL-ARIFIN_RESUME.docx";
 
 const HeaderLinks = () => {
@@ -14,7 +15,7 @@ const HeaderLinks = () => {
         <FaGithub />
       </a>
       <a href={CV} download>
-        <BiFile />
+        <BsPaperclip />
       </a>
     </div>
   );

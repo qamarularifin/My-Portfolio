@@ -1,15 +1,40 @@
 .contact_container{
-    background-color: hotpink;
+    
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1%;
+    
 
+}
+
+.contact_option{
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    padding: 0.8rem;
+    background-color:#9BBCC8;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1em;
 }
 
 form {
     display: flex;
     flex-direction: column;
     padding: 10%;
+}
+button{
+    background-color: #9BBCC8;
+    margin-top: 1em;
+}
+
+input, textarea{
+    
+    width: 80%;
+    padding: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+   
+    border: 1px solid black;
+    
 }
 
 
@@ -22,6 +47,19 @@ form {
         margin: 0 auto
     
     }
+    input, textarea{
+    
+        margin: 0 auto;
+        padding: 1.5rem;
+        /* border-radius: 0.5rem; */
+       
+        border: 2px solid black;
+    
+    }
+    button{
+        margin: 0 auto;
+        margin-top: 1em;
+    }
  
  
 
@@ -32,9 +70,11 @@ form {
         display: grid;
         grid-template-columns: 1fr;
         
-      
-        
-       
+    }
+
+    button{
+        margin: 0 auto;
+        margin-top: 1em;
     }
 
    }

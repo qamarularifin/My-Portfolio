@@ -9,7 +9,9 @@ const Header = (props) => {
     <section id="home">
       <div className="header_container">
         <div className="header_container-details">
-          <h1>Hello!</h1>
+          <h1>
+            <b>Hello!</b>
+          </h1>
           <h3>I am Qamarul Arifin, an aspiring Full-Stack Developer.</h3>
           <HeaderLinks />
         </div>
