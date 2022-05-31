@@ -1,7 +1,7 @@
 
 footer{
   padding: 3rem 0;
-  background-color: coral;
+  background-color: #365663;
 }
 
 
@@ -18,10 +18,20 @@ footer{
 
 a{
   text-decoration: none;
+  
+}
+
+.footer-links a{
+  color: white;
+  font-weight:900;
+  font-style: italic;
+  font-size: larger;
 }
 
 .footer_copyright{
   margin-bottom: 0.2rem;
+  font-weight:900;
+  font-size: large;
 }
 
 
@@ -38,6 +48,6 @@ a{
    .footer-links{
        display: flex;
        flex-direction: column;
-    
+       
    }
   }

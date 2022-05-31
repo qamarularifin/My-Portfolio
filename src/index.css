@@ -31,5 +31,6 @@ h1{
   border-radius: 0.4rem;
   cursor: pointer;
   border: 1px solid black;
-  /* transition: var(--transition); */
+  
 }
+

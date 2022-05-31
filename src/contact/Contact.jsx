@@ -29,19 +29,19 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h1>Contact Me</h1>
+      <h1>Get In Touch</h1>
       <div className="contact_container">
         <div className="contact_options">
           <article className="contact_option">
             <MdOutlineEmail className="contact_option-icon" />
-            <h4>Email</h4>
+            <h4>My Email</h4>
             <h5>qamarularifin@hotmail.com</h5>
             <a href="mailto:qamarularifin@hotmail.com">Send a message</a>
           </article>
 
           <article className="contact_option">
             <RiMessengerFill className="contact__option-icon" />
-            <h4>WhatsApp</h4>
+            <h4>My WhatsApp</h4>
             <h5>+65 94595435</h5>
             <a
               href="https://api.whatsapp.com/send?phone=94595435"

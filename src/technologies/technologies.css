@@ -40,6 +40,12 @@
    
 }
 
+.frontend_container:hover, .backend_container:hover{
+    background-color: #365663;
+    transition: all 600ms ease;
+
+}
+
 .tech_content{
     display: grid;
     grid-template-columns: 1fr 1fr;

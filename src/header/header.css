@@ -17,6 +17,12 @@
     
 }
 
+.header_container-details:hover{
+    background-color: #365663;
+    transition: all 600ms ease;
+
+}
+
 
 .header_links{
     display: flex;
