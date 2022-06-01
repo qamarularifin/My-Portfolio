@@ -61,11 +61,11 @@ const Projects = () => {
                 <p>{ele.summary}</p>
 
                 <div className="project_item-link">
-                  <a href={ele.github} className="btn" target="_blank">
+                  <a href={ele.github} className="btn proj" target="_blank">
                     Github Link
                   </a>
 
-                  <a href={ele.demo} className="btn" target="_blank">
+                  <a href={ele.demo} className="btn proj" target="_blank">
                     Demo
                   </a>
                 </div>
