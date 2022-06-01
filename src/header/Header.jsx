@@ -4,7 +4,7 @@ import "./header.css";
 
 const Header = (props) => {
   const { activeState, setActiveState } = props;
-  console.log(activeState);
+
   return (
     <section id="home">
       <div className="header_container">
