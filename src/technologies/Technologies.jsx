@@ -1,14 +1,20 @@
 import React from "react";
 import "./technologies.css";
 import { BsCheckCircleFill } from "react-icons/bs";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init({
+  duration: 2000,
+});
 
 const Technologies = () => {
   return (
     <section id="technologies">
-      <div>
+      <div data-aos="zoom-out">
         <h1>Technologies</h1>
       </div>
-      <div className="technologies_container">
+      <div className="technologies_container" data-aos="zoom-out">
         <div className="frontend_container">
           <h3>Frontend Development</h3>
 

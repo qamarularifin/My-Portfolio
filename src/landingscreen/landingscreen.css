@@ -1,0 +1,39 @@
+.landing_container{
+    font-size: 50px;
+    /* height: 100vh; */
+    padding-top: 10px;
+    
+}
+
+
+
+
+
+/* ===================MEDIA QUERIES (MEDIUM DEVICES) ==========*/
+@media screen and (max-width: 1024px) {
+    .landing_container{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+
+    
+    }
+ 
+  
+
+   }
+   /* ===================MEDIA QUERIES (SMALL DEVICES) ==========*/
+   @media screen and (max-width: 600px) {
+    .landing_container{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: auto;
+      
+      
+    }
+ 
+
+
+
+   }
+   

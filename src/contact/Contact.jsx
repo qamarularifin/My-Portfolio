@@ -4,6 +4,12 @@ import emailjs from "emailjs-com";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerFill } from "react-icons/ri";
 import { BsLinkedin } from "react-icons/bs";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init({
+  duration: 2000,
+});
 
 const Contact = () => {
   const form = useRef();
@@ -29,8 +35,11 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h1>Get In Touch</h1>
-      <div className="contact_container">
+      <div data-aos="zoom-in">
+        <h1>Get In Touch</h1>
+      </div>
+
+      <div className="contact_container" data-aos="zoom-in">
         <div className="contact_options">
           <article className="contact_option">
             <MdOutlineEmail className="contact_option-icon" />

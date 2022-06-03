@@ -4,6 +4,12 @@ import IMG1 from "../assets/pic1.jpg";
 import IMG2 from "../assets/pic2.jpg";
 import IMG3 from "../assets/pic3.jpg";
 import IMG4 from "../assets/pic4.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init({
+  duration: 2000,
+});
 
 const data = [
   {
@@ -46,10 +52,10 @@ const data = [
 const Projects = () => {
   return (
     <section id="projects">
-      <div>
+      <div data-aos="zoom-in">
         <h1>Projects</h1>
       </div>
-      <div className="projects_container">
+      <div className="projects_container" data-aos="zoom-in">
         {data.map((ele, i) => {
           return (
             <article key={i} className="project_item">

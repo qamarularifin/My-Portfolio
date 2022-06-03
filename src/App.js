@@ -7,7 +7,6 @@ import Projects from "../src/projects/Projects";
 import Contact from "../src/contact/Contact";
 import Footer from "../src/footer/Footer";
 import LandingScreen from "../src/landingscreen/LandingScreen";
-import { Link } from "react-router-dom";
 
 function App() {
   const [activeState, setActiveState] = useState("#");
