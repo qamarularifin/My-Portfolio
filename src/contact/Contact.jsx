@@ -6,6 +6,8 @@ import { RiMessengerFill } from "react-icons/ri";
 import { BsLinkedin } from "react-icons/bs";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 // ..
 AOS.init({
   duration: 2000,
@@ -23,6 +25,7 @@ const Contact = () => {
       form.current,
       "F6wuW0P6x0WS_fDj7"
     );
+
     e.target.reset().then(
       (result) => {
         console.log(result.text);
@@ -35,6 +38,7 @@ const Contact = () => {
 
   return (
     <section id="contact">
+      <ToastContainer />
       <div>
         <h1>Get In Touch</h1>
       </div>
@@ -70,7 +74,11 @@ const Contact = () => {
             placeholder="Key in your message"
             required
           ></textarea>
-          <button type="submit" className="btn btn-primary">
+          <button
+            type="submit"
+            className="btn btn-primary"
+            onClick={() => toast("Thank you for contacting me!")}
+          >
             Submit Message
           </button>
         </form>
