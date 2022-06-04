@@ -16,7 +16,7 @@ const Footer = (props) => {
             href="#technologies"
             onClick={() => setActiveState("#technologies")}
           >
-            Technologies
+            Tech Stack
           </a>
         </li>
         <li>
