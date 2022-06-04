@@ -34,4 +34,33 @@ nav a.active{
 }
 
 
+.home, .tech-stack, .projects, .contact  {
+    position: relative;
+    /* border-bottom: 1px dotted black; */
+  }
+  
+  .home:before, .tech-stack:before, .projects:before, .contact:before  {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 140px;
+    background-color: #9BBCC8;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 2px 0;
+    transition: opacity 0.5s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 110%;
+  }
+  
+  .home:hover:before, .tech-stack:hover:before, .projects:hover:before, .contact:hover:before{
+    opacity: 1;
+    visibility: visible;
+  }
+
 

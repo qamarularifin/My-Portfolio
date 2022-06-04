@@ -12,7 +12,7 @@ const Technologies = () => {
   return (
     <section id="technologies">
       <div data-aos="zoom-out">
-        <h1>Technologies</h1>
+        <h1>Tech Stack</h1>
       </div>
       <div className="technologies_container" data-aos="zoom-out">
         <div className="frontend_container">
@@ -68,7 +68,7 @@ const Technologies = () => {
             </article>
             <article className="tech_details">
               <BsCheckCircleFill className="tech_details-icon" />
-              <h4>API</h4>
+              <h4>API (REST) </h4>
             </article>
             <article className="tech_details">
               <BsCheckCircleFill className="tech_details-icon" />

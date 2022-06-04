@@ -12,28 +12,36 @@ const NavBar = (props) => {
       <a
         href="#"
         onClick={() => setActiveState("#")}
-        className={activeState === "#" ? "active" : ""}
+        //className={activeState === "#" ? "active home" : ""}
+        className="home"
+        data-hover="Home"
       >
         <BiHomeSmile />
       </a>
       <a
         href="#technologies"
         onClick={() => setActiveState("#technologies")}
-        className={activeState === "#technologies" ? "active" : ""}
+        // className={activeState === "#technologies" ? "active tech-stack" : ""}
+        className="tech-stack"
+        data-hover="Tech Stack"
       >
         <FaHammer />
       </a>
       <a
         href="#projects"
         onClick={() => setActiveState("#project")}
-        className={activeState === "#project" ? "active" : ""}
+        //className={activeState === "#project" ? "active" : ""}
+        className="projects"
+        data-hover="Projects"
       >
         <BsFolderFill />
       </a>
       <a
         href="#contact"
         onClick={() => setActiveState("#contact")}
-        className={activeState === "#contact" ? "active" : ""}
+        //className={activeState === "#contact" ? "active" : ""}
+        className="contact"
+        data-hover="Contacts"
       >
         <IoMdContacts />
       </a>
