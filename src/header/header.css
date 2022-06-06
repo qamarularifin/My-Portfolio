@@ -108,6 +108,13 @@
    }
    /* ===================MEDIA QUERIES (SMALL DEVICES) ==========*/
    @media screen and (max-width: 600px) {
+
+
+    .header_container{
+        margin: 1em
+    }
+
+
     .header_container-details{
         display: grid;
         grid-template-columns: 1fr;

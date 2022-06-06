@@ -2,7 +2,7 @@
     text-align: center;
     height: 100%;
     position: relative;
-
+    margin: -1em;
     display: grid;
     grid-template-columns: 1fr 1fr;
     
@@ -37,10 +37,12 @@ img{
 }
 
 img:hover{
-    transform: scale(1.1);
+    transform: scale(1.04);
 }
 
-
+p, h3{
+    margin: 3em
+}
 
 
 
@@ -52,12 +54,11 @@ img:hover{
         
     }
  
-    /* .technologies__container > div{
-        width: 80%;
-        padding: 2rem;
-        margin: 0 auto;
-        
-    } */
+    
+
+    p, h3{
+        margin: 2em
+    }
  
 
    }
@@ -69,6 +70,10 @@ img:hover{
         grid-template-columns: 1fr;
         
       
+    }
+
+    p, h3{
+        margin: 1em
     }
 
 
