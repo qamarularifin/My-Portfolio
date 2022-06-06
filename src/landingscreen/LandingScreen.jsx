@@ -15,7 +15,9 @@ const LandingScreen = (props) => {
       <div className="col-md-12">
         <h1 data-aos="zoom-in">Welcome</h1>
         <h3 data-aos="zoom-out">to</h3>
-        <h2 data-aos="zoom-in">My Portfolio</h2>
+        <h2 data-aos="zoom-in">
+          <span className="my-portfolio">My Portfolio</span>
+        </h2>
 
         <button className="btn" onClick={() => setButtonState()}>
           Let's go
