@@ -82,11 +82,17 @@ input, textarea{
         display: grid;
         grid-template-columns: 1fr;
         
+        
+    }
+
+    .contact_option{
+        border-radius: 3em;
     }
 
     button{
         margin: 0 auto;
         margin-top: 1em;
+        
     }
 
    }
