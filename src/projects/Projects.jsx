@@ -1,5 +1,6 @@
 import React from "react";
 import "./projects.css";
+
 import IMG1 from "../assets/pic1.jpg";
 import IMG2 from "../assets/pic2.jpg";
 import IMG3 from "../assets/pic3.jpg";
@@ -60,7 +61,9 @@ const Projects = () => {
           return (
             <article key={i} className="project_item">
               <div className="project_item-image">
-                <img src={ele.image} alt={ele.title} />
+                <a href={ele.demo} target="_blank">
+                  <img src={ele.image} alt={ele.title} />
+                </a>
               </div>
               <div>
                 <h3>{ele.title}</h3>
