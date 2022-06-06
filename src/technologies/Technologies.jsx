@@ -37,7 +37,7 @@ const Technologies = () => {
             </article>
             <article className="tech_details">
               <BsCheckCircleFill className="tech_details-icon" />
-              <h4>React BootStrap</h4>
+              <h4>BootStrap</h4>
             </article>
             <article className="tech_details">
               <BsCheckCircleFill className="tech_details-icon" />
