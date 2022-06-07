@@ -19,7 +19,7 @@ const Header = (props) => {
             <b>Hello!</b>
           </h1>
           <h3>
-            I'm Qamarul Arifin, your friendly neighbourhood Full-Stack
+            I'm Qamarul Arifin, an aspiring friendly neighbourhood Full-Stack
             Developer.
           </h3>
           <HeaderLinks />
