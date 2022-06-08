@@ -76,7 +76,7 @@ const Contact = () => {
           ></textarea>
           <button
             type="submit"
-            className="btn btn-primary"
+            className="spec btn btn-primary"
             onClick={() => toast("Thank you for contacting me!")}
           >
             Submit Message
