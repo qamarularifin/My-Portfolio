@@ -11,8 +11,6 @@
 
 
 
-
-
 .contact_option{
     border: 1px solid black;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
@@ -21,12 +19,7 @@
     width: 50%;
     margin: 0 auto;
     margin-bottom: 1em;
-    border-radius: 5em;
-    
-}
-
-.contact_options{
-    margin-top: 7em
+    border-radius:  5em;
 }
 
 .contact_option:hover{
@@ -98,16 +91,6 @@ input, textarea{
 
     .contact_option{
         border-radius: 3em;
-        margin-left: 3em
-    }
-
-    .contact_options{
-        width: 500px;
-        
-    }
-
-    form{
-        margin-right: 8em ;
     }
 
     button{

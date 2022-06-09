@@ -93,12 +93,7 @@
     
     }
  
-    .header__container > div{
-        width: 100%;
-        /* padding: 2rem; */
-        /* margin: 0 auto;
-         */
-    }
+  
     .scroll_down{
         display: none;
         text-decoration: none;
