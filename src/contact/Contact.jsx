@@ -37,13 +37,13 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact">
+    <section id="contact" data-aos="zoom-in">
       <ToastContainer />
-      <div data-aos="zoom-out">
+      <div>
         <h1>Get In Touch</h1>
       </div>
 
-      <div className="contact_container" data-aos="zoom-in">
+      <div className="contact_container">
         <div className="contact_options">
           <article className="contact_option">
             <MdOutlineEmail className="contact_option-icon" />

@@ -12,8 +12,8 @@ const Header = (props) => {
   const { activeState, setActiveState } = props;
 
   return (
-    <section id="home">
-      <div className="header_container" data-aos="zoom-out">
+    <section id="home" data-aos="zoom-in">
+      <div className="header_container">
         <div className="header_container-details">
           <h1>
             <b>Hello!</b>

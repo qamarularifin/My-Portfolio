@@ -34,9 +34,9 @@ nav a.active{
 }
 
 
-.home, .tech-stack, .projects, .contact  {
+.home, .tech-stack, .projects, .contact {
     position: relative;
-    /* border-bottom: 1px dotted black; */
+   
   }
   
   .home:before, .tech-stack:before, .projects:before, .contact:before  {

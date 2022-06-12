@@ -2,7 +2,7 @@
     text-align: center;
     height: 100%;
     position: relative;
-    margin: -1em;
+    /* margin: -1em;  adding this will cause the extra margin on the right side of screen*/
     display: grid;
     grid-template-columns: 1fr 1fr;
     
@@ -26,7 +26,7 @@
 }
 
 img{
-    width: 90%;
+    width: 95%;
     height: 25em;
     /* padding: 2.4rem 1rem ; */
     /* border-radius: 3.5em; */
@@ -53,11 +53,13 @@ p, h3{
         grid-template-columns: 1fr;
         
     }
- 
-    
 
     p, h3{
         margin: 2em
+    }
+
+    img{
+        width: 95%
     }
  
 

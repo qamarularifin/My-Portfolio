@@ -10,11 +10,11 @@ AOS.init({
 
 const Technologies = () => {
   return (
-    <section id="technologies">
-      <div data-aos="zoom-out">
+    <section id="technologies" data-aos="zoom-in">
+      <div>
         <h1>Tech Stack</h1>
       </div>
-      <div className="technologies_container" data-aos="zoom-out">
+      <div className="technologies_container">
         <div className="frontend_container">
           <h3>Frontend Development</h3>
 

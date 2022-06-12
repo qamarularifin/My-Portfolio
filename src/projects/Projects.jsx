@@ -52,11 +52,11 @@ const data = [
 
 const Projects = () => {
   return (
-    <section id="projects">
-      <div data-aos="zoom-in">
+    <section id="projects" data-aos="zoom-in">
+      <div>
         <h1>Projects</h1>
       </div>
-      <div className="projects_container" data-aos="zoom-in">
+      <div className="projects_container">
         {data.map((ele, i) => {
           return (
             <article key={i} className="project_item">

@@ -102,16 +102,19 @@ input, textarea{
 
     .contact_option{
         border-radius: 3em;
-        margin-left: 3em
+        margin-left: 3em;
+        width: 67%
     }
 
-    .contact_options{
+    /* .contact_options{
         width: 500px;
         
-    }
+    } */
 
     form{
         margin-right: 8em ;
+        width: 80%;
+        
     }
 
     button{
