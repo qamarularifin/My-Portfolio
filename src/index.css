@@ -8,6 +8,8 @@ body {
 
   text-align: center;
   line-height: 2.0;
+  /* background: url(../src/assets/wallpaper2.jpg); */
+  
   background: linear-gradient(
     90deg,
     rgb(45, 164, 191) 0%,

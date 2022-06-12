@@ -20,7 +20,7 @@ const LandingScreen = (props) => {
         </h2>
 
         <button className="btn" onClick={() => setButtonState()}>
-          Let's go
+          Enter
         </button>
       </div>
     </div>

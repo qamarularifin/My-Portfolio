@@ -12,6 +12,7 @@ const Header = (props) => {
   const { activeState, setActiveState } = props;
 
   return (
+    // do not use "zoom-out" as it will create extra margin on right side
     <section id="home" data-aos="zoom-in">
       <div className="header_container">
         <div className="header_container-details">
