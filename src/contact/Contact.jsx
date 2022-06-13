@@ -38,17 +38,6 @@ const Contact = () => {
 
   return (
     <section id="contact" data-aos="zoom-in">
-      <ToastContainer
-        position="top-center"
-        autoClose={5000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-      />
       <div>
         <h1>Get In Touch</h1>
       </div>
@@ -76,6 +65,17 @@ const Contact = () => {
         </div>
 
         <form ref={form} onSubmit={sendEmail}>
+          <ToastContainer
+            position="top-center"
+            autoClose={5000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+          />
           <input type="text" name="name" placeholder="Your Name" required />
           <input type="email" placeholder="Your Email" required />
           <textarea
