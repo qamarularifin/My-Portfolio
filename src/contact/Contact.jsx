@@ -26,7 +26,7 @@ const Contact = () => {
       form.current,
       "F6wuW0P6x0WS_fDj7"
     );
-
+    Swal.fire("Congratulations!", "Your booking is successful", "success");
     e.target.reset().then(
       (result) => {
         console.log(result.text);
@@ -35,12 +35,23 @@ const Contact = () => {
         console.log(error.text);
       }
     );
-
-    // Swal.fire("Congratulations!", "Your booking is successful", "success");
   };
 
   return (
     <section id="contact" data-aos="zoom-in">
+      {/* <ToastContainer
+        position="top-left"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
+
+      <ToastContainer /> */}
       <div>
         <h1>Get In Touch</h1>
       </div>
@@ -66,18 +77,6 @@ const Contact = () => {
             </a>
           </article> */}
         </div>
-        <ToastContainer
-        // className="toast-container"
-        // position="top-center"
-        // autoClose={5000}
-        // hideProgressBar={false}
-        // newestOnTop={false}
-        // closeOnClick
-        // rtl={false}
-        // pauseOnFocusLoss
-        // draggable
-        // pauseOnHover
-        />
 
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder="Your Name" required />
