@@ -106,10 +106,9 @@ input, textarea{
         width: 67%
     }
 
-    /* .contact_options{
-        width: 500px;
-        
-    } */
+    .toast-container{
+        width: 200vw;
+    }
 
     form{
         margin-right: 8em ;

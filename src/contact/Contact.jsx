@@ -4,6 +4,7 @@ import emailjs from "emailjs-com";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerFill } from "react-icons/ri";
 import { BsLinkedin } from "react-icons/bs";
+import Swal from "sweetalert2";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 import { ToastContainer, toast } from "react-toastify";
@@ -34,6 +35,8 @@ const Contact = () => {
         console.log(error.text);
       }
     );
+
+    // Swal.fire("Congratulations!", "Your booking is successful", "success");
   };
 
   return (
@@ -63,19 +66,20 @@ const Contact = () => {
             </a>
           </article> */}
         </div>
+        <ToastContainer
+        // className="toast-container"
+        // position="top-center"
+        // autoClose={5000}
+        // hideProgressBar={false}
+        // newestOnTop={false}
+        // closeOnClick
+        // rtl={false}
+        // pauseOnFocusLoss
+        // draggable
+        // pauseOnHover
+        />
 
         <form ref={form} onSubmit={sendEmail}>
-          <ToastContainer
-            position="top-center"
-            autoClose={5000}
-            hideProgressBar={false}
-            newestOnTop={false}
-            closeOnClick
-            rtl={false}
-            pauseOnFocusLoss
-            draggable
-            pauseOnHover
-          />
           <input type="text" name="name" placeholder="Your Name" required />
           <input type="email" placeholder="Your Email" required />
           <textarea
