@@ -26,7 +26,7 @@ const Contact = () => {
       form.current,
       "F6wuW0P6x0WS_fDj7"
     );
-    Swal.fire("Congratulations!", "Your booking is successful", "success");
+    Swal.fire("Thank you", "for contacting me!", "success");
     e.target.reset().then(
       (result) => {
         console.log(result.text);

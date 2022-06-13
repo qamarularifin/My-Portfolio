@@ -68,9 +68,28 @@ nav a.active{
 
 /* ===================MEDIA QUERIES (MEDIUM DEVICES) ==========*/
 @media screen and (max-width: 1024px) {
-  nav{
+  /* nav{
+    ***use this if dont want nav bar showing***
     display: none;
     text-decoration: none;
+
+} */
+
+
+nav{
+  background-color: rgba(0,0,0,0.2);
+  width: max-content;
+  display: block;
+  position: fixed;
+  z-index: 2;
+  right: 35%;
+  bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  border-radius: 2em;
+  padding: 0.8em;
+  backdrop-filter: blur(5px);
 
 }
 
@@ -78,9 +97,27 @@ nav a.active{
  }
  /* ===================MEDIA QUERIES (SMALL DEVICES) ==========*/
  @media screen and (max-width: 600px) {
-  nav{
+  /* nav{
+    ***use this if dont want nav bar showing***
     display: none;
     text-decoration: none;
+
+} */
+
+nav{
+  background-color: rgba(0,0,0,0.2);
+  width: max-content;
+  display: block;
+  position: fixed;
+  z-index: 2;
+  right: 20%;
+  bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  border-radius: 2em;
+  padding: 0.8em;
+  backdrop-filter: blur(5px);
 
 }
  }
