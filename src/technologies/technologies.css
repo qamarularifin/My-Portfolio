@@ -14,15 +14,11 @@
 }
 
 
-
-
 .technologies_container > div{
     padding: 2.4rem 5rem;
     border-radius: 5rem;
-
+    
 }
-
-
 
 
 .frontend_container{
@@ -31,6 +27,7 @@
     margin-left: 1em;
     /* width: 50%; */
     /* margin: 0 auto;  */
+    
      
 }
 
@@ -53,12 +50,14 @@
 .tech_content{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    
 }
 
 
 .tech_details{
     display: flex;
     gap: 1rem;
+    
 
 }
 
@@ -67,6 +66,8 @@
 
     margin-top: -0.5em
 }
+
+
 
 
 

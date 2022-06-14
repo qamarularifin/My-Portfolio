@@ -19,9 +19,11 @@ const Header = (props) => {
           <h1>
             <b>Hello!</b>
           </h1>
-          <h3>
+          <h3 className="header_content">
             I'm Qamarul Arifin, an aspiring friendly neighbourhood Full-Stack
-            Developer.
+            Developer with a good combination of soft skills and hard skills
+            acquired through years of experience in equipment engineering
+            looking towards building a smart nation with positive impact.
           </h3>
           <HeaderLinks />
         </div>
