@@ -4,6 +4,9 @@ import { BiHomeSmile } from "react-icons/bi";
 import { FaHammer } from "react-icons/fa";
 import { BsFolderFill } from "react-icons/bs";
 import { IoMdContacts } from "react-icons/io";
+import { AiFillPhone } from "react-icons/ai";
+import { BsStack } from "react-icons/bs";
+import { ImBooks } from "react-icons/im";
 
 const NavBar = (props) => {
   const { activeState, setActiveState } = props;
@@ -25,7 +28,7 @@ const NavBar = (props) => {
         className="tech-stack"
         data-hover="Tech Stack"
       >
-        <FaHammer />
+        <BsStack />
       </a>
       <a
         href="#projects"
@@ -34,7 +37,7 @@ const NavBar = (props) => {
         className="projects"
         data-hover="Projects"
       >
-        <BsFolderFill />
+        <ImBooks />
       </a>
       <a
         href="#contact"
@@ -43,7 +46,7 @@ const NavBar = (props) => {
         className="contact"
         data-hover="Contacts"
       >
-        <IoMdContacts />
+        <AiFillPhone />
       </a>
     </nav>
   );
