@@ -40,13 +40,15 @@ img:hover{
 }
 
 p, h3{
-    margin: 3em;
-    
+    margin: 2em;
+      
 
 }
 
 p{
     text-align: left;
+    margin-left: 20em;
+    margin-right: 20em
 }
 
 .tech{
