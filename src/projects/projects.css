@@ -4,7 +4,7 @@
     position: relative;
     /* margin: -1em;  adding this will cause the extra margin on the right side of screen*/
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     
 }
 
