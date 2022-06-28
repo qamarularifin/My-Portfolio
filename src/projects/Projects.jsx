@@ -34,16 +34,16 @@ const data = [
     demo: "https://qamarularifin.github.io/Project-2",
     tech: "ReactJS",
   },
-  {
-    id: 3,
-    image: IMG3,
-    title: "RoundUp (A Budget Expense App)",
-    summary:
-      "The RoundUp App allows user to track their networth, income, expenses and investments all in one app, which solves the painpoint of the conventional budgeting app where tracking of investments is usually not supported. Hence, users of the RoundUp App are able to know their financial health, empowering them towards achieving or improving financial literacy.",
-    github: "https://github.com/qamarularifin/RoundUp",
-    demo: "",
-    tech: ["MongoDB", "/", "ExpressJS", "/", "ReactNative", "/", "NodeJS"],
-  },
+  // {
+  //   id: 3,
+  //   image: IMG3,
+  //   title: "RoundUp (A Budget Expense App)",
+  //   summary:
+  //     "The RoundUp App allows user to track their networth, income, expenses and investments all in one app, which solves the painpoint of the conventional budgeting app where tracking of investments is usually not supported. Hence, users of the RoundUp App are able to know their financial health, empowering them towards achieving or improving financial literacy.",
+  //   github: "https://github.com/qamarularifin/RoundUp",
+  //   demo: "",
+  //   tech: ["MongoDB", "/", "ExpressJS", "/", "ReactNative", "/", "NodeJS"],
+  // },
   {
     id: 4,
     image: IMG4,
